@@ -1,16 +1,5 @@
-// //change image on event
-// //.src.match()
-// let imgValue = document.getElementById("myImage");
-// imgValue.onmouseover = function () {
-//     if (myImage.src.match("images/pexels.jpeg")) {
-//         myImage.src = "images/drugs.jpeg"
-//     } else {
-//         return;
-//     }
-// }
+//We are testing Git
 
-//####################################################
-//Codecademy 27.03.2020
 //Interactive web development; Chore Door (Game)
 
 //get the first door element
@@ -39,7 +28,6 @@ let currentlyPlaying = true;
 
 //create a variable to hold all 3 closed doors
 let door = [doorImage1, doorImage3, doorImage3];
-
 
 //which door has the game-ending ChoreBot!
 function isBot(door) {
