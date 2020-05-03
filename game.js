@@ -106,7 +106,7 @@ const startRound = () => {
   doorImage3.src = closedDoorPath;
   numClosedDoors = 3;
   startButton.innerHTML = "Good luck!";
-  currentPlaying = true;
+  currentlyPlaying = true;
   randomChoreDoorGenerator();
 };
 
